@@ -1,29 +1,15 @@
-import Login from './Component/Login';
-import Register from './Component/Register';
-import Profile from './Component/Profile';
+import Login from './Login';
+import Register from './Register';
+import Profile from './Profile';
 import Link from 'next/link';
+import { makeStyles } from '@material-ui/core/styles'
 
 
 function App(){
     return(
         <div >
         <Login />
-        {/* <Register /> */}
-        {/* <Profile /> */}
-        {/* <ul>
-            <li>
-              <Link href="Component/Profile">
-                <a>profile</a>
-              </Link>
-                            
-            </li>
-            <li>
-            <Link href="/Register">
-                  <a>Regiter</a>
-              </Link>
-            </li>
-          </ul>
-          <button type="button"><Link href="/About">About</Link></button> */}
+        
 
       </div>
     )
